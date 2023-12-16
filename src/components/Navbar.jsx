@@ -28,7 +28,7 @@ const Navbar = () => {
             <p className="text-white text-[18x] font-bold cursor-pointer flex">
               John &nbsp; 
               <span className='sm:block hidden'>| Victor</span>
-              </p>
+            </p>
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>
             {navLinks.map((link) => (
